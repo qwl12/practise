@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+
+    background-color: #209568;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background: #2D2E30;
+    
+}
+.button {
+    width: 180px;
+    height: 50px;
+    background-color: #209568;
+    border-radius: 50px;
+}
+.button > div{
+    margin: 5px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation > div{
+    color: rgb(255, 255, 255);
+    font-family: inter;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.screen1 {
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    width: 1920px;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.screen1 img {
+    width: 50%  ;
+}
+.screen1 > div {
+    width: 50%;
+
+}
+.titles{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    padding: 10%;
+    width: 50%;
+    height: auto;
+}
+
+.text1d{
+
+    font-size: 4em;
+}
+.text2d{
+    font-size: 1.3em;
+    font-weight: 00;
+}
+.text1w{
+
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+}
+.text2w{
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+
+}
+.fade {
+    height: 200px;
+    background-color: #202020;
+}
+.fade > div {
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+.slider{
+    padding:100px 0px ;
+    max-width: 100%;
+    width: 100%;
+    background-image: url("/images/slider1-1.jpg") ;
+    background-repeat: no-repeat;
+}
+.slider > .text1w {
+    margin: 650px 0px 0px 110px;
+}
+.slider > .text2w {
+    margin: 0px 0px 0px 115px;
+}
+.slider2{
+    padding:100px 0px ;
+    max-width: 100%;
+    width: 1920px;
+    background-image: url("/images/slider2-1.jpg") ;
+    background-repeat: no-repeat;
+}
+.slider2 > .text1w {
+    margin: 650px 0px 0px 110px;
+    color: black;
+}
+.slider2 > .text2w {
+    margin: 0px 0px 0px 115px;
+    color: black;
+}
+.title {
+    display: flex;
+    align-items: flex-end;
+    
+    padding: 40px;
+    height: auto;
+    width: 50%;
+}
+
+.screen1 > title {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+
+
+}
+.screen2 {
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    width: 1920px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    
+}
+.qr {
+    width: 50%;
+    display: flex;
+
+}
+.qrphoto{
+    max-width: 100%;
+    background-image: url("/images/qrphoto.jpg");
+    width: 100%;
+    height: 1037px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.qr div {
+    display: flex;
+    align-items: center;
+}
+.qrtext{
+    margin: 54em 0px 2% 5%;
+    display: flex;
+    position: absolute;
+    gap: 2%;
+}
+.text2wLine{
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: underline;
+}
+.line1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block2 {
+    width: 50%;
+    background-size: cover;
+    background-image: url("/images/control.jpg");
+    background-repeat: no-repeat;
+    padding:50em 0px 2% 5%;
+}
+.block3{
+    width: 50%;
+    background-size: cover;
+    background-image: url("/images/integration.png");
+    background-repeat: no-repeat;
+    padding:15em 0px 2% 25%;
+
+}
+.block3 div {
+text-align: center;
+}
+.block3 .text2wLine{
+    padding:25em 0px 2% 5%;
+
+}
+.line2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block4{
+    width: 50%; 
+    background-position: right center;
+    background-image: url("/images/secure.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:45em 0px 2% 3%;
+}
+.block4 div {
+    text-align: left;
+}
+.text2dLine{
+    font-size: 1.3em;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.text1dblock{
+
+    font-size: 2.5em;
+
+}
+.block5{
+    padding:45em 0px 2% 3%;
+}
+.line3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block6{
+    width: 50%; 
+    background-image: url("/images/Babki.jpg");
+    background-repeat: no-repeat;
+    padding:45em 0px 2% 3%;
+}
+.block7{
+    background-color: #222224;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    padding:45em 0px 2% 3%;
+}
+footer{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    background-color: #222224;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.asida{
+
+    flex-direction: column;
+}
+.contact {
+padding: 2em 0px 0px 0px;
+}
+.ap {
+    padding: 9em 0px 0px 0px;
+}
+.text1w2 {
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 400;
+}
+.footer-right {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.slider__items {
+    counter-reset: slide;
+  }
+
+  .slider__item {
+    counter-increment: slide;
+  }
+
+  .slider__item>div::before {
+    content: counter(slide);
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  
+@media screen  and (max-width:1740) {
+    .text1w{
+        font-size: 2em;
+    }
+
+}
